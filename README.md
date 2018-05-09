@@ -1,5 +1,4 @@
-# Package linux-scripts-apps-db-mysql
-![Bootstrap Image](https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/boot1.jpg)
+# Package linux-scripts-apps-db-mysql<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/boot1.jpg" width="6%" align= "right">
 
 ### Table of Contents
 You're sections headers will be used to reference location of destination.
@@ -24,7 +23,6 @@ You're sections headers will be used to reference location of destination.
 ## <b>**Install at your own Risk</b>
 ### Repository
 - https://github.com/RMelanson/XXXXXXXXXXXXX-bootstraps.git
-#
 ### About
 - Version: 1.0.0
 - Release Date: May 06 2018
