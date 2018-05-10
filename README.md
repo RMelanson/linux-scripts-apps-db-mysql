@@ -1,4 +1,4 @@
-# Package linux-scripts-apps-db-mysql<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/stockWidgets.png" width="6%" align= "right">
+# Package linux-scripts-apps-db-mysql<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/db.png" width="6%" align= "right">
 ### Table of Contents
 You're sections headers will be used to reference location of destination.
 
