@@ -12,8 +12,9 @@ yum update -y
 #INSTALL GIT
 yum install git -y
 
-#Set Cloning Properties
-pkg=mysql
+# SETUP ENVIRONMENT AND PARAMETERS
+. ./env/setEnv.sh
+
 gitRepo="linux-scripts-apps-db-mysql.git"
 installDir="/tmp/scripts/apps/db/MYSQL"
 if [ -f ~/.ssh/gitHub.key ]; then
