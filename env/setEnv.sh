@@ -1,1 +1,4 @@
-# ToDo Create Environment script
+#!/bin/bash
+
+# MYSQL CONFIGURATION PARAMETERS
+pkg=mysql
