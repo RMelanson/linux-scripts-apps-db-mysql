@@ -1,5 +1,4 @@
 #!/bin/bash
-mySqlCurrDir=$PWD
 # Ensure script is running under root
 if [ "$EUID" -ne 0 ]
   then echo "Please run as root or under sudo"
@@ -13,7 +12,10 @@ yum update -y
 yum install git -y
 
 # SETUP ENVIRONMENT AND PARAMETERS
-. ./env/setEnv.sh
+mySqlCurrDir=$PWD
+pkg=mySQL
+gitRepo="linux-scripts-apps-db-mysql.git"
+installDir="/tmp/scripts/apps/db/$pkg"
 
 if [ -f ~/.ssh/gitHub.key ]; then
    clone="git clone git@github.com:RMelanson/"
